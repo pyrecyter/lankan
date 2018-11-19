@@ -1,0 +1,249 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+	 height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; >
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  .btn {
+  font-family: "Sentinel A","Sentinel B",Georgia,serif; 
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  background: #4383c5;
+  color: #FFF;
+  padding: 6px 20px 7px; 
+  font-size: 18px;
+  line-height: 23px;
+  min-width: 50px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle; 
+  border: 1px solid 4383c5;
+  cursor: pointer;
+  font-weight: 600px; 
+  transition: opacity 0.1s ease-out,background 0.1s ease-out;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),0 1px 3px rgba(0,0,0,0.4);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.3),0 1px 3px rgba(0,0,0,0.4);
+  -webkit-transition: opacity 0.1s ease-out,background 0.1s ease-out;
+}
+
+
+.btn:hover
+{
+  background-color: #356fac; 
+}
+body {
+  background-color: #ffffff;
+}
+
+.icon-cart {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.icon-cart .cart-line-1 {
+  width: 15%;
+  height: 7%;
+  position: absolute;
+  left: 8%;
+  top: 25%;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg); 
+  background-color: #000;
+  border-bottom-left-radius: 35%;
+}
+
+.icon-cart .cart-line-2 {
+  width: 35%;
+  height: 7%;
+  position: absolute;
+  left: 6%;
+  top: 40%;
+  -webkit-transform: rotate(80deg);
+  -moz-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  transform: rotate(80deg); 
+  background-color: #000;
+}
+
+.icon-cart .cart-line-2:before {
+  content: "";
+  width: 120%;
+  height: 100%;
+  position: absolute;
+  left: 45%;
+  top: -280%;
+  -webkit-transform: rotate(-80deg);
+  -moz-transform: rotate(-80deg);
+  -ms-transform: rotate(-80deg);
+  transform: rotate(-80deg); 
+  background-color: inherit;
+}
+
+.icon-cart .cart-line-2:after {
+  content: "";
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 59%;
+  top: -670%;
+  background-color: inherit;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg); 
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 25%;
+}
+
+.icon-cart .cart-line-3 {
+  width: 30%;
+  height: 7%;
+  position: absolute;
+  left: 33%;
+  top: 45%;
+  background-color: #000;
+}
+
+.icon-cart .cart-line-3:after {
+  content: "";
+  width: 124%;
+  height: 100%;
+  position: absolute;
+  top: -150%;
+  left: -5%;
+  background-color: inherit;
+}
+
+.icon-cart .cart-wheel {
+  width: 12%;
+  height: 12%;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  left: 28%;
+  bottom: 20%;
+}
+
+.icon-cart .cart-wheel:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 100%;
+  position: absolute;
+  left: 200%;
+  bottom: 0;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+}
+
+.btn-primary {
+  font-family: Raleway-SemiBold;
+  font-size: 15px;
+  color: rgba(58, 133, 191, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(50, 100, 150, 0.75);
+  border-radius: 30px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background: rgba(58, 133, 191, 0.75);
+  border: 2px solid rgba(50, 100, 150, 0.75);
+}
+
+.btn-info {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: rgba(91, 192, 222, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(91, 192, 222, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-info:hover {
+  color: #FFF;
+  background: rgba(91, 192, 222, 0.75);
+  border: 2px solid rgba(91, 192, 222, 0.75);
+}
+input {
+  position:absolute;
+  top: -2em;
+  clip:rect(0,0,0,0);
+}
+
+.score {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+  border: 0;
+  font-size: 0;
+}
+.score legend {
+  overflow: hidden;
+  height: 0;
+}
+.score label {
+  font-size: 20px; font-size: 1rem;
+  line-height: 20px; line-height: 1rem;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 1.2em;
+  height: 1em;
+  overflow: hidden;
+  text-indent: 100%;
+}
+.score label:before {
+   content: "☆";
+   position: absolute;
+   top: 0; left: 0; right: 0; bottom: 0;
+   text-indent: 0;
+   line-height: 1em;
+   color: #aaa;
+}
+.score label:hover:before,
+.score label:hover ~ label:before,
+.score input:checked ~ label:before {
+   content: "★";
+   color: #ffbb04;
+}
+.score label:active {
+  position: relative;
+  top: 1px;
+}
+
+}
